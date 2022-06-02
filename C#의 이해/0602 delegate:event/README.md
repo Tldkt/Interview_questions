@@ -28,6 +28,7 @@ MyDelegate del = new myDelegate(methodA);
 //대리자 인스턴스 del은 methodA를 참조하고 있으므로 methodA메소드를 사용할 수 있습니다.
 //대리자 인스턴스가 마치 methodA 함수처럼 쓰이고 있습니다.
 del("AAA");
+method("AAA");
 
 del new myDelegate(methodB);
 del("BBB");
