@@ -28,7 +28,7 @@ class Counter
  .Net에서 제공하고 있는 Event 처리 관련 delegate, 이 두가지를 이용하여 대부분의 이벤트 시나리오를 처리할 수 있다.
  EventHandler의 경우엔 데이터가 없는 이벤트 처리, EventHandler<TEventArgs>는 데이터를 포함하는 이벤트에 대해서 처리할 수 있다.
 
----------
+ 
 ## 예제코드
 ``` C#
 using System;
