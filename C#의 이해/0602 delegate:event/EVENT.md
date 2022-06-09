@@ -8,7 +8,6 @@
  <img width="643" alt="image" src="https://user-images.githubusercontent.com/43405887/172790578-5acaed29-0b4f-4b50-890b-47a9a2729152.png">
 
 ## 코드
----------
 ``` C#
 class Counter
 {
