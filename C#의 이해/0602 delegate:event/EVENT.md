@@ -102,3 +102,13 @@ Active!40
 그리고 더 아래로 내려가면 클래스의 인스턴스를 만들고 Active 이벤트에 MyHandler 메소드를 이벤트 핸들러로 등록하라는 말과 같습니다.
                                    
 이제 아래서 특정 조건을 만족하면 이벤트가 발생하며 Active가 출력됩니다.
+                                   
+                                   
+                                   
+                                   
+                                   markdown: kramdown
+kramdown:
+    highlighter: rouge
+    syntax_highlighter_opts:
+        block:
+            line_numbers: true
