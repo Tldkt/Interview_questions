@@ -106,7 +106,7 @@ Active!40
                                    
                                    
                                    
-                                   markdown: kramdown
+markdown: kramdown
 kramdown:
     highlighter: rouge
     syntax_highlighter_opts:
