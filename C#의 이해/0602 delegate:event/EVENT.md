@@ -73,5 +73,21 @@ namespace ConsoleApplication42
     }
 }
 ```
+실행 결과
+  ```
+1
 
-  
+..
+
+Active!10
+
+..
+
+Active!40
+
+..
+
+49
+
+계속하려면 아무 키나 누르십시오 . . .
+                                   ```
