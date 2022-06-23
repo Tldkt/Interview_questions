@@ -23,14 +23,12 @@ public static void methodB(string msg){
 대리자가 메소드를 참조 후 호출
 ``` C#
 //대리자 인스턴스 생성
-MyDelegate del;
-
-//대리자 인스턴스 del은 methodA 메소드의 주소를 참조합니다.
-del new myDelegate(methodA);
+MyDelegate del = new myDelegate(methodA);
 
 //대리자 인스턴스 del은 methodA를 참조하고 있으므로 methodA메소드를 사용할 수 있습니다.
 //대리자 인스턴스가 마치 methodA 함수처럼 쓰이고 있습니다.
 del("AAA");
+method("AAA");
 
 del new myDelegate(methodB);
 del("BBB");
