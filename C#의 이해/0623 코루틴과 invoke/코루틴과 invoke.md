@@ -43,7 +43,7 @@ Invoke("함수이름", 시간);
 InvokeRepeating("함수이름", 지연시간, 반복시간);
 
 // 모든 Invoke 함수 취소
-CancelInvoke(); 
+CancelInvoke();
 
 // 함수가 실행되고있는지 조사
 IsInvoking("함수이름");
